@@ -13,7 +13,7 @@ if [ -d "$dirName" ]; then
 fi
 
 partContent=$(cat << 'EOF'
-import { getLinesFromFile } from "../day1/part1";
+import { getLinesFromFile } from "../infrastructure/get-lines-frome-file";
 
 const getAnswer = async (): Promise<void> => {
   const lines = await getLinesFromFile("test.txt");
@@ -27,7 +27,7 @@ EOF
 
 testContent=$(cat << 'EOF'
 import { describe, expect, test } from "bun:test";
-import { getLinesFromFile } from "../infrastructure";
+import { getLinesFromFile } from "../infrastructure/get-lines-frome-file";
 
 const lines = await getLinesFromFile("test.txt");
 
