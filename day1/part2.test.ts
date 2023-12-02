@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { getLinesFromFile } from "../infrastructure/get-lines-frome-file";
+import { getLinesFromFile } from "../infrastructure/get-lines-from-file";
 import {
   MatchIndex,
   convertDigitNameToNumberString,

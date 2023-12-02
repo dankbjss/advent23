@@ -1,4 +1,4 @@
-import { getLinesFromFile } from "../infrastructure/get-lines-frome-file";
+import { getLinesFromFile } from "../infrastructure/get-lines-from-file";
 
 export type MatchIndex = {
   match: string;
