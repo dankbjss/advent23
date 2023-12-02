@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { getLinesFromFile } from "./get-lines-frome-file";
+import { getLinesFromFile } from "./get-lines-from-file";
 
 const filePath = "/home/dank/advent23/infrastructure/fixture.txt";
 

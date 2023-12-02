@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { getLinesFromFile } from "../infrastructure/get-lines-frome-file";
+import { getLinesFromFile } from "../infrastructure/get-lines-from-file";
 import { getTotalCalibrationValues, extractFirstAndLastDigitFromLine } from "./part1";
 
 const lines = await getLinesFromFile("/home/dank/advent23/day1/test.txt");

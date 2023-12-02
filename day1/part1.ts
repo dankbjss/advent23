@@ -1,4 +1,4 @@
-import { getLinesFromFile } from "../infrastructure/get-lines-frome-file";
+import { getLinesFromFile } from "../infrastructure/get-lines-from-file";
 
 export const extractFirstAndLastDigitFromLine = (line: string): number => {
   const filteredLine = line.split("").filter(character => character.match(/\d/));
